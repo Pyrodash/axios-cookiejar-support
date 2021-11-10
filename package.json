@@ -1,18 +1,19 @@
 {
-  "name": "axios-cookiejar-support",
+  "name": "@pyrodash/axios-cookiejar-support",
   "version": "2.0.3",
   "description": "Add tough-cookie support to axios.",
   "license": "MIT",
   "author": "3846masa <3846masahiro+git@gmail.com>",
-  "homepage": "https://github.com/3846masa/axios-cookiejar-support#readme",
+  "homepage": "https://github.com/pyrodash/axios-cookiejar-support#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/3846masa/axios-cookiejar-support.git"
+    "url": "git+https://github.com/pyrodash/axios-cookiejar-support.git"
   },
   "bugs": {
-    "url": "https://github.com/3846masa/axios-cookiejar-support/issues"
+    "url": "https://github.com/pyrodash/axios-cookiejar-support/issues"
   },
   "main": "dist/index.js",
+  "react-native": "dist/index.js",
   "browser": "noop.js",
   "files": [
     "dist",
@@ -28,7 +29,8 @@
   },
   "types": "dist/index.d.ts",
   "dependencies": {
-    "http-cookie-agent": "^1.0.2"
+    "http-cookie-agent": "^1.0.2",
+    "util": "^0.12.4"
   },
   "peerDependencies": {
     "axios": ">=0.20.0",
