@@ -4631,13 +4631,13 @@
     "is-number" "^7.0.0"
 
 "tough-cookie@^4.0.0", "tough-cookie@4.0.0":
-  "resolved" "git+ssh://git@github.com/pyrodash/tough-cookie.git#9bcf570b9f446111184a23229d5394c6795a1cef"
+  "integrity" "sha512-tHdtEpQCMrc1YLrMaqXXcj6AxhYi/xgit6mZu1+EDWUn+qhUf8wMQoFIy9NXuq23zAwtcB0t/MjACGR18pcRbg=="
+  "resolved" "https://registry.npmjs.org/tough-cookie/-/tough-cookie-4.0.0.tgz"
   "version" "4.0.0"
   dependencies:
     "psl" "^1.1.33"
     "punycode" "^2.1.1"
     "universalify" "^0.1.2"
-    "util" "^0.12.4"
 
 "tough-cookie@~2.5.0":
   "version" "2.5.0"
